@@ -1,0 +1,49 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+header {
+    display: flex;
+    align-items: flex-start;
+}
+#ayamas-logo {
+    width: 20vh;
+    height: 20vh;
+}
+
+.company-name {
+    padding-top: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 35px;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+th {
+    border: 1px solid black;
+    padding: 40px;
+    text-decoration: underline;
+}
+
+th:nth-child(2) {
+    width: 48vh;
+}
+
+td {
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.frozen-food {
+    width: 20vh;
+    height: auto;
+    margin: -40px -20px -40px -20px;
+}
+
+.description {
+    font-weight: bold;
+}
